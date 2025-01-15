@@ -12,7 +12,6 @@ a:visited {
 }  
 
 div{
-  order: 1;
   background-color: #373941;
   flex-direction: column;
   justify-content: center;
@@ -34,4 +33,16 @@ div{
   margin-left: 580px;
   margin-right: 0px;
   cursor: pointer;
+}
+
+.img{
+  display: flex;
+background-color: red;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.box{
+  background-color: red;
 }
